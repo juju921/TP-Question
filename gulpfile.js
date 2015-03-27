@@ -36,17 +36,6 @@ gulp.task('sass', function () {
         .pipe($.size());
 });
 
-gulp.task('sprite', function () {
-    var sprite = gulp.src(path.resources.icons + '/*.png')
-        .pipe($.spritesmith({
-            imgName: "sprite.png",
-            cssName: "_sprite.scss",
-            cssTemplate: path.resources.tools + '/_sprite.scss.mustache'
-        }));
-
-    sprite.img.pipe(gulp.dest(path.public.images));
-    sprite.css.pipe(gulp.dest(path.resources.tools))
-});
 
 gulp.task('watch', function () {
     gulp.watch(path.resources.scss + '/**/*.scss', ['sass']);
