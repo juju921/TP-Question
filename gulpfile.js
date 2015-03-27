@@ -32,8 +32,8 @@ gulp.task('sass', function () {
             cascade: true
         }))
         .pipe($.rename({suffix: '.min'}))
-        .pipe(gulp.dest(path.public.css))
-        .pipe($.size());
+        .pipe(gulp.dest(path.public.css));
+
 });
 
 

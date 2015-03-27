@@ -1,19 +1,17 @@
 .header {
   margin-top: 30px;
-
 }
 
-.link{color:white !important; }
-
+.link {
+  color: white !important;
+}
 
 .userProgress {
   margin-top: 20px;
   width: 600px;
-
-}
-
-.userProgress .progress {
-  height: 30px;
+  .progress {
+    height: 30px;
+  }
 }
 
 .number {
@@ -29,15 +27,15 @@
   width: 80px;
   background: url('../assets/img/ju.jpg');
   background-size: cover;
-
 }
 
-.thumbnail .col-xs-4 {
-  padding: 0 6px;
-}
-
-.thumbnail h1 {
-  margin: 10px;
-  padding: 0;
-  font-size: 15px;
+.thumbnail {
+  .col-xs-4 {
+    padding: 0 6px;
+  }
+  h1 {
+    margin: 10px;
+    padding: 0;
+    font-size: 15px;
+  }
 }
