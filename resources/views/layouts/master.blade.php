@@ -21,10 +21,7 @@
              </div>
              <div id="navbar" class="collapse navbar-collapse">
                <ul class="nav navbar-nav">
-                 <li class="active"><a href="{{url('front/index')}}">Home</a></li>
-                 @if(!Auth::guest())
-                      <li><a href="{{url('dashboard/index')}}">Dashboard</a></li>
-                 @endif
+                 <li class="active"><a href="#">Home</a></li>
                  <li><a href="#"></a></li>
                  <li><a href="#"></a></li>
                </ul>
