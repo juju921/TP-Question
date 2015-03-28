@@ -93,6 +93,14 @@ class QuestionsTableSeeder extends Seeder
                     'created_at' => $dateTime,
                     'updated_at' => $dateTime,
                 ],
+                [
+                    'title'       => 'Question 11 : Php',
+                    'content' =>'La balise <\HR> permet de :',
+                    'class_level' =>'difficile',
+                    'status'=>'',
+                    'created_at' => $dateTime,
+                    'updated_at' => $dateTime,
+                ],
             ]
         );
     }
