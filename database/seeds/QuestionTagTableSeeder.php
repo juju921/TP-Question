@@ -8,11 +8,19 @@ class QuestionTagTableSeeder extends Seeder
 
     public function run()
     {
-        DB::table('question__tags')->delete();
+        DB::table('question_tags')->delete();
         $dateTime = new DateTime('now');
         $dateTime = $dateTime->format('Y-m-d H:i:s');
-        DB::table('question__tags')->insert(
+        DB::table('question_tags')->insert(
             [
+
+                [
+                    'question_id' => '1 ' ,
+                    'tag_id'=>'1',
+
+                ],
+
+
 
 
             ]

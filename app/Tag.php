@@ -6,8 +6,8 @@ class Tag extends Model {
 
     public function questions(){
 
-        $mytag =  $this->belongsToMany('App\Question', 'question__tags');
-        return view('front.index', compact('mytag'));
+        return  $this->belongsToMany('App\Question', 'question_tags');
+
     }
 
 }

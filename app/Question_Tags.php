@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class Question_Tags extends Model {
+class question_tags extends Model {
 
 	//
 

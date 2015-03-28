@@ -17,7 +17,7 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('/', 'QuestionControler@index');
 Route::get('single/{id}', 'QuestionControler@showSingle');
-
+Route::get('tag/{id}',  'QuestionControler@showTag');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
